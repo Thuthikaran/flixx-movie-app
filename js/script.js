@@ -2,6 +2,12 @@ const global = {
     currentPage: window.location.pathname,
 };
 
+// Fetch data from the API 
+async function fetchAPIData(endpoint) {
+    const API_Key = ''; 
+}
+
+
 // Highlight active link 
 function highlightActiveLink() {
     const links = document.querySelectorAll('.nav-link');
