@@ -268,7 +268,7 @@ function initSwiper() {
 
 // Fetch data from the API 
 async function fetchAPIData(endpoint) {
-    const API_Key = 'e22101da298fe81ba3348aca7e30e8db'; 
+    const API_Key = 'a46cc758226f17774b19466462cdcee4'; 
     const API_URL = 'https://api.themoviedb.org/3/'; 
 
     showSpinner();
